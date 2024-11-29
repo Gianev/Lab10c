@@ -1,0 +1,37 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    gap: 20px; /* Adds space between components */
+  }
+  
+  .App > div {
+    width: 90%;
+    max-width: 600px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+  }
+  
+  .App > div h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .App > div p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+  }
+  
+  .App > div:hover {
+    transform: translateY(-5px);
+    transition: 0.3s ease;
+    border-color: #007bff;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
